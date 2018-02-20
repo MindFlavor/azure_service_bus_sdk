@@ -9,7 +9,7 @@ repository     = "https://github.com/MindFlavor/azure_service_bus_sdk"
 documentation  = "https://docs.rs/azure_service_bus_sdk"
 homepage       = "https://github.com/MindFlavor/azure_service_bus_sdk"
 
-keywords       = ["sdk", "azure", "service bus", "rest", "iot"]
+keywords       = ["sdk", "azure", "service_bus", "rest", "iot"]
 categories     = ["api-bindings"]
 
 [features]
