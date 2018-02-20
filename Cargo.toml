@@ -1,0 +1,35 @@
+[package]
+name           = "azure_service_bus_sdk"
+version        = "0.1.0"
+description    = "Rust wrappers around Microsoft Cosmos DB REST APIs"
+readme         = "README.md"
+authors        = ["Francesco Cogno <francesco.cogno@outlook.com>"]
+license        = "MIT"
+repository     = "https://github.com/MindFlavor/azure_service_bus_sdk"
+documentation  = "https://docs.rs/azure_service_bus_sdk"
+homepage       = "https://github.com/MindFlavor/azure_service_bus_sdk"
+
+keywords       = ["sdk", "azure", "service bus", "rest", "iot"]
+categories     = ["api-bindings"]
+
+[features]
+test_e2e       = []
+
+[dependencies]
+azure_core_sdk = "0.1.1"
+base64         = "0.9.0"
+chrono         = "0.4.0"
+env_logger     = "0.5.3"
+futures        = "0.1.18"
+hyper          = "0.11.18"
+hyper-tls      = "0.1.2"
+log            = "0.4.1"
+mime           = "0.3.5"
+native-tls     = "0.1.5"
+rust-crypto    = "0.2.36"
+time           = "0.1.39"
+tokio          = "0.1.1"
+tokio-core     = "0.1.12"
+url            = "1.6.0"
+uuid           = "0.6.0"
+
